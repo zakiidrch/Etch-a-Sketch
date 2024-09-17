@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9c89b8;
+
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1px;
+
+    margin-top: 10px;
+}
+
+.container div {
+    background-color: #fff;
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.reset {
+    margin: 20px auto 10px;
+    padding: 10px 20px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    background-color: #f9f7f3;
+
+    border:  none;
+    border-radius: 4px;
+}
